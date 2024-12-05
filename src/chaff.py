@@ -8,7 +8,7 @@ def chaff():
     try:
         with open("CHAFF", "wb") as file:
             while True:
-                file.write(b"A" * 65535)
+                file.write(b"0" * 65535)
 
     except:
         pass
