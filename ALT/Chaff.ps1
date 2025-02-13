@@ -1,1 +1,1 @@
-cls; rm CHAFF; echo "CREATING CHAFF"; while ($true) {echo 0 >> CHAFF}; rm CHAFF; echo DONE!
+ cls; echo "CREATING CHAFF"; while ($true) {echo @("0"*65353) >> CHAFF}; rm CHAFF; echo DONE!
