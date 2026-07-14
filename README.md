@@ -6,4 +6,4 @@
 #### Notes:
 * You have to overwrite the entire drive
 * The partition scheme must be Exfat or NTFS
-* The entire drive must have everything deleted and only one partition
+* The entire drive must have everything deleted prior to running the tool and only one partition
