@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Chaff"
-version = "0.0.6"
+version = "1.1"
 authors = [
   { name="Invizabel"},
 ]
-description = "Chaff is a secure overwrite tool for permanent data destruction!"
+description = "Secure overwrite tool utilizing NIST 800-88 Revision 2 (https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r2.pdf)"
 readme = "README.md"
 license = { file="LICENSE.txt" }
 requires-python = ">=3.8"
