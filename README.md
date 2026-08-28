@@ -1,10 +1,8 @@
-## Secure Erase Tool
+## Secure erase tool utilizing NIST 800-88
 
 #### To Erase:
-* To run the Python code: Python3 -m Chaff
+* To run the Python code: Python3 -m Chaff --filename my_filename.png
 
 #### Notes:
-* You have to overwrite the entire drive
-* The partition scheme must be Exfat or NTFS
-* The entire drive must have everything deleted prior to running the tool and only one partition
+* You have to overwrite the entire drive if on an ssd, sd card, or flash drive
 * PoC software - DO NOT USE IN PRODUCTION
