@@ -1,7 +1,3 @@
-## Secure erase tool utilizing NIST 800-88 Revision B
-
-#### To Erase:
-* To run the Python code: Python3 -m Chaff --filename my_filename.png
-
-#### Notes:
-* You have to overwrite the entire drive if on an ssd, sd card, or flash drive
+# Chaff is a secure overwrite tool for permanent data destruction!
+# 
+# To run: python3 -m Chaff
